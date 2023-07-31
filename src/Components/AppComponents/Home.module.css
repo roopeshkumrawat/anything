@@ -1,0 +1,100 @@
+/* .homeInner {
+    margin-top: 40px;
+} */
+
+.mainHeading {
+    max-width: 812.495px;
+    margin: auto;
+}
+
+.inputField {
+    position: relative;
+    max-width: 812.495px;
+    height: 183px;
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 10px 21px 0px rgba(205, 205, 205, 0.25), 0px 0px 4px 0px rgba(228, 228, 228, 0.25);
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+.inputTextField {
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 100%;
+    padding: 10px 70px 10px 10px;
+}
+
+.sendImg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 24px;
+    right: 24px;
+}
+
+.demoQueMain {
+    max-width: 664.898px;
+    min-height: 143.889px;
+    flex-shrink: 0;
+    width: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 63px;
+    gap: 5px;
+}
+
+.ques {
+    color: #888;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quotesImg {
+    width: 39.602px;
+    object-fit: contain;
+}
+
+.leftQuotes.quotesImg {
+    align-self: flex-start;
+}
+
+.rightQuotes.quotesImg {
+    align-self: flex-end;
+}
+@media (max-width: 1199px) {
+    .inputField {
+        border-radius: 12px;
+    }
+}
+@media (max-width: 767px) {
+    .ques {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+  
+    .sendImg {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        bottom: 15px;
+        right: 15px;
+    }
+    .inputTextField {
+        padding: 10px 45px 10px 10px;
+    }
+    .demoQueMain {
+        margin-top: 30px;
+    }
+    .homeInner {
+        margin-top: 30px;
+    }
+}

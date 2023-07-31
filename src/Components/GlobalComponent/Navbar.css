@@ -1,0 +1,109 @@
+
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+.navbar.navbar-expand-lg.bg-light {
+    min-height: 100px;
+}
+
+.mainLogo {
+    max-width: 208px;
+    width: 100%;
+}
+
+.navNavigations {
+    display: flex;
+    gap: 50px;
+}
+
+.navButtons {
+    gap: 14px;
+}
+
+#navbarSupportedContent {
+    gap: 166px;
+}
+
+.navNavigations .nav-item .nav-link {
+    padding: 0px;
+    color: #0B0B0D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btnLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 44px;
+    padding: 0px;
+    color: #0B0B0D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 3px;
+}
+
+.btnTryFree {
+    width: 194.548px;
+    height: 44px;
+    padding: 0px 14px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TryitBtnArrow {
+    width: 31.925px;
+    max-width: 100%;
+}
+
+@media (max-width: 1199px) {
+    #navbarSupportedContent {
+        gap: 70px;
+    }
+
+    .navNavigations {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (max-width:991px) {
+    .navNavigations {
+
+        gap: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navNavigations {
+        gap: 20px;
+    }
+    .navButtons {
+        margin-top: 20px;
+    }
+ 
+    .btnTryFree {
+        height: 44px;
+        gap: 14px;
+        max-width: max-content;
+    }
+    .mainLogo {
+        max-width: 150px;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+}
